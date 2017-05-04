@@ -11,5 +11,5 @@ if(randomNumber === 0){ eightBall = 'Yes';}
  else if (randomNumber === 6) { eightBall = 'certainly';}
  else if (randomNumber === 7) { eightBall = 'no';}
 
-prompt('What do you wanna know ? ');
+console.log('What do you wanna know ? ');
 console.log('The eight ball answered: ' + eightBall);
